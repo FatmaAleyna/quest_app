@@ -3,7 +3,7 @@ package com.project.questapp.services;
 import java.util.List;
 import java.util.Optional;
 
-import dtos.UserDTO;
+import com.project.questapp.dtos.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

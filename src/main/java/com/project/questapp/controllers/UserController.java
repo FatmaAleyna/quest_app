@@ -1,6 +1,6 @@
 package com.project.questapp.controllers;
 
-import dtos.UserDTO;
+import com.project.questapp.dtos.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RestController;

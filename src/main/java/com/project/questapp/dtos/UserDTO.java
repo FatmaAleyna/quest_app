@@ -1,4 +1,4 @@
-package dtos;
+package com.project.questapp.dtos;
 
 import com.project.questapp.entities.User;
 import lombok.Getter;
