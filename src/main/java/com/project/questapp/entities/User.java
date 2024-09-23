@@ -14,23 +14,17 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name="users")
+@Table(name="user")
 public class User {
 
 	@Id
-	@SequenceGenerator(
-			name = "user_seq",
-			sequenceName = "user_seq",
-			allocationSize = 1
-	)
-	@GeneratedValue(
-			strategy = GenerationType.IDENTITY,
-			generator = "user_seq"
-	)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id; 
 
 	private String userName;
 
 	private String password;
+
+	int avatar;
 
 }
